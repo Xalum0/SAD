@@ -1,0 +1,18 @@
+dn: uid=nvegas,ou=people,dc=securecorp,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: nvegas
+cn: Nuria Vegas
+sn: Vegas
+givenName: Nuria
+mail: nvegas@securecorp.local
+uidNumber: 10005
+gidNumber: 10005
+homeDirectory: /home/nvegas
+
+dn: cn=sistemas,ou=groups,dc=securecorp,dc=local
+objectClass: groupOfNames
+cn: sistemas
+member: uid=nvegas,ou=people,dc=securecorp,dc=local
+
+

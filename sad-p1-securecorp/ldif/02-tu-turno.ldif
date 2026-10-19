@@ -22,6 +22,18 @@ uidNumber: 10003
 gidNumber: 10003
 homeDirectory: /home/mtorres
 
+dn: uid=nvegas,ou=people,dc=securecorp,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: nvegas
+cn: Nuria Vegas
+sn: Vegas
+givenName: Nuria
+mail: nvegas@securecorp.local
+uidNumber: 10005
+gidNumber: 10005
+homeDirectory: /home/nvegas
+
 dn: cn=rrhh,ou=groups,dc=securecorp,dc=local
 objectClass: groupOfNames
 cn: rrhh
@@ -32,3 +44,5 @@ dn: cn=sistemas,ou=groups,dc=securecorp,dc=local
 objectClass: groupOfNames
 cn: sistemas
 member: uid=acolon,ou=people,dc=securecorp,dc=local
+member: uid=nvegas,ou=people,dc=securecorp,dc=local
+
