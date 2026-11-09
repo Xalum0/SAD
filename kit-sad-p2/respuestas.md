@@ -34,12 +34,22 @@ En el firewall (`./lab.sh fw`): `tcpdump -ni wan host 198.51.100.62 -c 6`. Mient
 (`./lab.sh comercial`) hace `curl http://172.16.10.20:8080`. Pega lo que sale en el firewall:
 
 ```text
-(pega aquí la salida de tcpdump)
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on wan, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+15:21:08.241262 IP 198.51.100.62.59237 > 198.51.100.254.51820: UDP, length 96
+15:21:08.241409 IP 198.51.100.254.51820 > 198.51.100.62.59237: UDP, length 96
+15:21:08.241535 IP 198.51.100.62.59237 > 198.51.100.254.51820: UDP, length 96
+15:21:08.241546 IP 198.51.100.62.59237 > 198.51.100.254.51820: UDP, length 176
+15:21:08.241650 IP 198.51.100.254.51820 > 198.51.100.62.59237: UDP, length 96
+15:21:08.241821 IP 198.51.100.254.51820 > 198.51.100.62.59237: UDP, length 304
+6 packets captured
+10 packets received by filter
+0 packets dropped by kernel
 ```
 
 En dos líneas: ¿qué se ve por la calle y qué NO se ve?
 
->
+>El ERP desde enologa y desde comercial el ERP y Tienda, tras los cambios es eso lo que se ve.
 
 ## Bloque C · Para la defensa (C4)
 
