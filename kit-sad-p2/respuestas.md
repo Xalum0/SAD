@@ -66,4 +66,4 @@ Nota del análisis **antes** de bastionar (D0):
 
 Nota **después** (D4). ¿Por qué no llega a 100? ¿Significa que el servidor sigue inseguro? Comenta un aviso que siga saliendo.
 
->
+>Nota del servidor (hardening index): 63 / 100 por que todavia hay vias de acceso, tras este bastionado lo que hemos hecho es reforzar la seguridad no blindarla ante todo, por ejemplo recomienda cambiar el puerto ssh de 22 a otro ya que asi es menos probable que ataquen el servicio o por ejemplo el numero de sesiones simultaneas bajarlas a 2
