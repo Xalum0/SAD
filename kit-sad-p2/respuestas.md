@@ -56,7 +56,7 @@ En dos líneas: ¿qué se ve por la calle y qué NO se ve?
 Del **mismo ataque** (la inyección a la web): ¿qué ve el vigilante de la red (el IDS) y qué ve el portero de la web? ¿Por
 qué hacen falta los dos?
 
->
+>el vigilante (suricata) ve quien intenta entrar y como intenta entrar, el portero (el waf) ve que intentan hacer dentro (lee la peticion), si falta una no sabrias quien entra ni como y si falta la otra no verias que quieren hacer y por lo tanto no sabria si son solicitudes legitimas o no 
 
 ## Bloque D · La nota del servidor (D0 y D4)
 
